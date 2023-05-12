@@ -2,19 +2,19 @@
     "name": "folivoro/framework",
     "description": "The Folivoro Framework.",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Sloth\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "Ben Kremer",
             "email": "ben@folivoro.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": "^8.1"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Sloth\\": "src/"
+        }
     }
 }
